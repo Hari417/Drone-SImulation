@@ -1,0 +1,33 @@
+# Fleet configuration for multi-drone coordination
+
+drones:
+  - drone_id: "drone1"
+    coord_ip: "127.0.0.1"
+    coord_port: 10001
+    mavlink: "tcp:127.0.0.1:5762"
+
+  - drone_id: "drone2"
+    coord_ip: "127.0.0.1"
+    coord_port: 10002
+    mavlink: "tcp:127.0.0.1:5772"
+
+  - drone_id: "drone3"
+    coord_ip: "127.0.0.1"
+    coord_port: 10003
+    mavlink: "tcp:127.0.0.1:5782"
+
+  - drone_id: "drone4"
+    coord_ip: "127.0.0.1"
+    coord_port: 10004
+    mavlink: "tcp:127.0.0.1:5792"
+
+# Mission parameters
+mission:
+  geofence:
+    lat_max: 12.870869
+    lon_min: 80.215248
+    lat_min: 12.867034
+    lon_max: 80.218943
+  altitude: 15
+  camera_fov: 60
+  overlap: 0.1
