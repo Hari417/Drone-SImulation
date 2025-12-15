@@ -19,7 +19,6 @@ from dronekit import connect, VehicleMode, LocationGlobalRelative, Command
 
 import time
 from math import radians, cos, sin, sqrt
-from dronekit import connect, VehicleMode, LocationGlobalRelative, Command
 from pymavlink import mavutil
 
 # ======= CONFIG =======

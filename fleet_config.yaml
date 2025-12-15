@@ -2,24 +2,60 @@
 
 drones:
   - drone_id: "drone1"
-    coord_ip: "127.0.0.1"
+    coord_ip: "10.50.1.219"
     coord_port: 10001
-    mavlink: "tcp:127.0.0.1:5762"
+    mavlink: "tcp:10.50.1.219:5762"
 
   - drone_id: "drone2"
-    coord_ip: "127.0.0.1"
+    coord_ip: "10.50.1.219"
     coord_port: 10002
-    mavlink: "tcp:127.0.0.1:5772"
+    mavlink: "tcp:10.50.1.219:5842"
 
   - drone_id: "drone3"
-    coord_ip: "127.0.0.1"
+    coord_ip: "10.50.1.219"
     coord_port: 10003
-    mavlink: "tcp:127.0.0.1:5782"
+    mavlink: "tcp:10.50.1.219:5852"
 
   - drone_id: "drone4"
-    coord_ip: "127.0.0.1"
+    coord_ip: "10.50.1.219"
     coord_port: 10004
-    mavlink: "tcp:127.0.0.1:5792"
+    mavlink: "tcp:10.50.1.219:5832"
+
+  - drone_id: "drone5"
+    coord_ip: "10.50.1.219"
+    coord_port: 10005
+    mavlink: "tcp:10.50.1.219:5822"
+
+  - drone_id: "drone6"
+    coord_ip: "10.50.1.219"
+    coord_port: 10006
+    mavlink: "tcp:10.50.1.219:5812"
+
+  - drone_id: "drone7"
+    coord_ip: "10.50.1.219"
+    coord_port: 10008
+    mavlink: "tcp:10.50.1.219:5802"
+
+  - drone_id: "drone8"
+    coord_ip: "10.50.1.219"
+    coord_port: 10009
+    mavlink: "tcp:10.50.1.219:5792"
+
+  - drone_id: "drone9"
+    coord_ip: "10.50.1.219"
+    coord_port: 10010
+    mavlink: "tcp:10.50.1.219:5782"
+
+  - drone_id: "drone10"
+    coord_ip: "10.50.1.219"
+    coord_port: 10011
+    mavlink: "tcp:10.50.1.219:5772"
+
+
+
+
+
+
 
 # Mission parameters
 mission:
